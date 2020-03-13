@@ -20,7 +20,7 @@ Laptop 1440 X 708 (Portrait Mode)
 ## BUILT WITH
 *  HTML 5
 *  CSS 4
-*  BOOTSTRAP
+*  BOOTSTRAP 4
 ***
  ![Example](https://rawcdn.githack.com/)
  
