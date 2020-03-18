@@ -1,3 +1,87 @@
-svg {
-  transform: scale(0.3);
+
+ * {
+   box-sizing: border-box;
+}
+
+ nav {
+   background-color: #ff0500;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.container {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.b .container {
+  background-color: #bb498f;
+}
+
+.e .container {
+  background-color: #00b0f0;
+}
+
+.f .container {
+  background-color: #00b050;
+}
+
+.c .container {
+  background-color: #c00000;
+}
+
+.d .container {
+  background-color: #7030a0;
+}
+
+.hi .container {
+  background-color: rgb(230, 230, 64);
+}
+
+.g .container {
+  background-color: #1760b4;
+}
+
+
+
+.e1 {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.c1,
+.f1,
+.g1 {
+  background-color: rgba(255, 255, 255, .66);
+}
+
+.c2,
+.f2 {
+  background-color: rgba(255, 255, 255, .33);
+}
+
+.d1 {
+  background-color: rgba(255, 255, 255, .75);
+}
+
+.d2 {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.d3,
+.e3,
+.f3 {
+  background-color: rgba(255, 255, 255, .25);
+}
+
+.e2,
+.b,
+.c2,
+.c3,
+.d3,
+.d4,
+.f4 {
+  color: #fff;
 }
