@@ -45,6 +45,16 @@ div {
   background-color: #1760b4;
 }
 
+.e2,
+.b,
+.c2,
+.c3,
+.d3,
+.d4,
+.f4 {
+  color: #fff;
+}
+
 .e1 {
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -74,12 +84,3 @@ div {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-.e2,
-.b,
-.c2,
-.c3,
-.d3,
-.d4,
-.f4 {
-  color: #fff;
-}
