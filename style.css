@@ -11,37 +11,37 @@ div {
   border: 1px solid black;
 }
 
-.container {
+.container-fluid {
   text-align: center;
   font-size: 2rem;
   font-weight: 300;
 }
 
-.b .container {
+.b .container-fluid {
   background-color: #bb498f;
 }
 
-.e .container {
+.e .container-fluid {
   background-color: #00b0f0;
 }
 
-.f .container {
+.f .container-fluid {
   background-color: #00b050;
 }
 
-.c .container {
+.c .container-fluid {
   background-color: #c00000;
 }
 
-.d .container {
+.d .container-fluid {
   background-color: #7030a0;
 }
 
-.hi .container {
+.hi .container-fluid {
   background-color: rgb(230, 230, 64);
 }
 
-.g .container {
+.g .container-fluid {
   background-color: #1760b4;
 }
 
