@@ -8,7 +8,8 @@ body {
   box-sizing: border-box;
 }
 
-ul, li {
+ul, 
+li {
   list-style: none;
 }
 
@@ -27,17 +28,18 @@ nav {
   height: 30px;
   outline: none;
   border: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   background: url(Assets/iconfinder_1013_MagnifyingGlass_183520.png) no-repeat scroll 200px 7px;
-  padding-left:60px;
+  padding-left: 60px;
 }
 
 .container-fluid {
   font-weight: 200;
 }
 
-.b { background-color: white;
+.b { 
+  background-color: white;
 }
 
 .e {
@@ -108,6 +110,7 @@ nav {
   height: 2703px;
   padding-right: 0;
 }
+
 .wrapper_c3 {
   position: static;
   left: 0;
@@ -117,6 +120,6 @@ nav {
 
 #logo_2 {
   fill: #f72210;
-  }
+}
 
 
