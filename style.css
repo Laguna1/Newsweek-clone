@@ -17,6 +17,11 @@ li {
   background-color: #f72210;
 }
 
+.logo_1 {
+  max-width: 65%;
+  height: auto;
+}
+
 nav {
   background-color: #f4f5f6;
 }
@@ -33,7 +38,7 @@ nav {
 }
 
 .container-fluid {
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .e {
@@ -58,7 +63,7 @@ nav {
 }
 
 .g {
-  background-color: #1760b4;
+  background-color: transparent;
 }
 
 .e2,
@@ -101,7 +106,7 @@ nav {
 
 .content-right {
   position: relative;
-  height: 2703px;
+  height: auto;
   padding-right: 0;
 }
 
@@ -110,6 +115,10 @@ nav {
   left: 0;
   top: 0;
   width: auto;
+}
+
+.img_start5 {
+  background: url(Assets/starting5-homepage.png) center center / cover no-repeat;
 }
 
 #logo_2 {
