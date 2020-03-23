@@ -18,174 +18,87 @@
 
 <body>
 
-  <div class="container-fluid">
-
-    <header class="page-header container-fluid">
-      
-   
-      <div class="header-top flex-xs justify-content-between">
-        <div class="navbar navbar-expand-md text-white">
-          <div class="col-3 flex-xs-6 jc-end align-bottom">
-            <date>Fri, Mar 20, 2020</date></div>
-          
-          <div class="logo-container d-sm-flex ai-sm-fe col-lg-6 d-g-block">
-            <a class="brand text-center" href="#">
+  <header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex flex-column p-0">
+      <div class="container-fluid">
+        <div class="row">
+      <div class="header d-flex justify-content-between align-items-end px-lg-3 pb-0 px-3">
+        <div class="col-4-lg mr-2 mb-3 px-0 d-none d-lg-block w-100 text-white"><date>Fri, Mar 20, 2020</date></div>
+        <div class="d-flex-sm flex-row">
+         <div class="col-3-lg">
+          <a class="navbar-brand text-center w-75 pb-0 mb-0" href="#">
               <img src="Assets/NEWSWEEK_LOGO_WHITE.svg" alt="logo" class="logo_1 img-fluid">
             </a>
-            <span></span>
           </div>
-       
-          <div class="header-top-right d-flex col-lg-3 flex-xs-6 ai-fe jc-fe text-right ml-auto p-0">
-            <button class="btn btn-outline-danger text-white" type="sign">SIGN IN</button>
-            <button class="btn bg-white text-danger" type="submit">SUBSCRIBE
+          </div>
+          <div class="col-5-lg d-flex-xs flex-row justify-self-end align-self-end w-100 mr-0 mb-3">
+            <span class="signin border-none text-white bg-transparent font-weight-bold h6 ">SIGN IN</span>
+            <span class="bg-light text-danger font-weight-bold h6">SUBSCRIBE
               <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            </button>
-                            </div>
-        
-        </div>
-      </div>
-
-      <div class="header-middle bg-green">
-        middle
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">logo svg</a>
-      </div>
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Navbar links -->
-
-
-      <div class="navbar navbar-expand-lg w-100 flex-wrap p-0">
-
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav mr-auto">
-            <a class="nav-item nav-link" href="#">U.S.</a>
-            <a class="nav-item nav-link" href="#">WORLD</a>
-            <a class="nav-item nav-link" href="#">BUSINESS</a>
-            <a class="nav-item nav-link" href="#">Tech&SCIENCE</a>
-            <a class="nav-item nav-link" href="#">Culture</a>
-            <a class="nav-item nav-link" href="#">Newsgeek</a>
-            <a class="nav-item nav-link" href="#">Sports</a>
-            <a class="nav-item nav-link" href="#">Health</a>
-            <a class="nav-item nav-link" href="#">The Debate</a>
-            <a class="nav-item nav-link" href="#">Vantage</a>
-            <a class="nav-item nav-link" href="#">Weather</a>
-          </ul>
-          <div class="icone_input col-xl-auto form-inline border-none pr-0">
-
-            <input id="search" type="search" class="input form-control mr-sm-2" placeholder="Search" />
-
-          </div>
-        </div>
-      </div>
-
-
-
-
-    </header>
-
-
-
-
-
-    <!--
-
-
-
-    <header class="b page-header sticky-top">
-      <div class="header-top flex-xs jc-sb ai-fe">
-        <div class="navbar navbar-expand-md text-white">
-          <div class="date col-lg-4 d-g-block ml-0">
-            <span>Mon, Mar 16, 2020</span>
-          </div>
-          <span></span>
-          <div class="logo-container d-sm-flex align-items-sm-center">
-            <a class="brand" href="#">
-              <img src="Assets/NEWSWEEK_LOGO_WHITE.svg" alt="logo" class="logo img-fluid">
-            </a>
-            <span></span>
-            
-            <button class="btn btn-danger" type="sign">SIGN IN</button>
-            <button class="btn bg-white text-danger" type="submit">SUBSCRIBE
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </span>
+            <button class="navbar-toggler d-xl-none border-0 p-0 text-right" type="button" 
+            data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggler" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-        
-        </div>
+        </div> 
       </div>
-      <div class="container-fluid d-lg-block nav-link d-flex">
-        <div class="row">
-          <div class="navbar navbar-expand-md">
-          <a href="#" class="navbar-logo">
-            <img src="
-            " alt="logo">
-          </a>
-          <button class="btn btn-danger" type="sign">SIGN IN</button>
-                    <button class="btn bg-white text-danger" type="submit">SUBSCRIBE
-                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </button>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                      <i class="fas fa-menu"></i>
-                  </button>
-                </div>
-
-   <nav class="collapse navbar-collapse">
-        <div class="navbar-nav">
-          
-           
-        <div class="icone_input col-lg-auto form-inline border-none">
-              <div class="container">
-                  <input id="search" type="search" class="input form-control mr-sm-2" placeholder="Search"/>
-              </div>
-            </div>
-            </div>
-          
-     </nav>
-    
     </div>
+      <div class="collapse navbar-collapse position-relative col-lg-auto mx-0" id="navbarToggler">
+        <ul class="navbar-nav mb-0 font-weight-bold">
+          <li class="nav-item w-25">
+            <a class="nav-link text-dark pr-2 mb-0" href="#">US</a>
+          </li>
+          <li class="nav-item w-25">
+            <a class="nav-link text-dark px-3 mb-0 border-left" href="#">World</a>
+          </li>
+          <li class="nav-item w-25">
+            <a class="nav-link text-dark px-3 mb-0 border-left" href="#">Business</a>
+          </li>
+          <li class="nav-item w-100">
+            <a class="nav-link text-dark px-3 mb-0 border-left" href="#">Tech&Science</a>
+          </li>
+          <li class="nav-item w-25">
+            <a class="nav-link border-left text-dark" href="#">Culture</a>
+          </li>
+          <li class="nav-item w-25">
+            <a class="nav-link border-left text-dark px-3" href="#">Sports</a>
+          </li>
+          <li class="nav-item w-25">
+            <a class="nav-link border-left text-dark px-3" href="#">Health</a>
+          </li>
+          <li class="nav-item w-25">
+            <a class="nav-link border-left text-dark px-3" href="#">Opinion</a>
+          </li>
+          <li class="nav-item border-left w-25">
+            <a class="nav-link text-dark px-3" href="#">Vantage</a>
+          </li>
+        </ul>
+        <div class="icone_input form-inline border-none pr-0">
+             <input id="search" type="search" class="input form-control mr-sm-2" placeholder="Search" />
+        </div>
+      </div>
+    </nav>
+   
+</header>
+
  
-  </div>
 
-  <nav class="container-fluid navbar navbar-expand-md navbar-white bg-white">
-     <div class="collapse navbar-collapse">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">U.S.</a>
-          <a class="nav-item nav-link" href="#">WORLD</a>
-           <a class="nav-item nav-link" href="#">BUSINESS</a>
-          <a class="nav-item nav-link" href="#">Tech&SCIENCE</a>
-          <a class="nav-item nav-link" href="#">Culture</a>
-          <a class="nav-item nav-link" href="#">Newsgeek</a>
-           <a class="nav-item nav-link" href="#">Sports</a>
-          <a class="nav-item nav-link" href="#">Health</a>
-          <a class="nav-item nav-link" href="#">The Debate</a>
-          <a class="v" href="#">Vantage</a>
-          <a class="nav-item nav-link" href="#">Weather</a>
-        </div>
-        <form class="icone_input col-lg-auto form-inline border-none ml-auto container">
-           <input id="search" type="search" class="input form-control mr-sm-2" placeholder="Search"/>
-        </form>
-    </div>
-</nav>
-    </header>
--->
     <div class=" main">
 
-      <section class="c">
+      <section class="c pt-4">
         <div class="">
          <div class="row">
-            <div class="c1 col-sm-6 col-lg-4">
-              <h3 class="block-title">FEATURED STORIES</h3>
-              <article>
-                <div class="wrap position-relative">
-                  <img class="img-fluid hole-img-size" src="Assets/jfk-airport-new-york-city-march-2020.jpg"
+            <div class="c1 col-sm-6 col-lg-3">
+              <h3 class="block-title "><a href="#" class="text-dark h6">STORIES</a></h3>
+              <article class="">
+                <div class="wrap">
+                  <a class="position-absolute" href="#">NEWS</a>
+                  <img class="img-fluid" src="Assets/jfk-airport-new-york-city-march-2020.jpg"
                     alt="airport">
-                  <div class="position-absolute top-left">
-                    <a href="#">NEWS</a>
                   </div>
-                </div>
                 <h4 class="py-2">U.S. Coronavirus Death Toll Hits 39, Infections Surpass 1,300</h4>
                 <p>Los Angeles County confirmed its first death, as New York City's St. Patrick's Day parade is
                   postponed, with more restrictions to be introduced in the city.</p>
@@ -193,10 +106,11 @@
 
               <article>
                 <div class="position-relative">
+                  <div class="position-absolute bottom-left category">
+                    <a href="">NEWS</a>
+                </div>
                     <img class="img-fluid hole-img-size" src="Assets/trump-places-travel-ban-european-countries.jpg" alt="">
-                    <div class="position-absolute bottom-left category">
-                        <a href="">NEWS</a>
-                    </div>
+                    
                 </div>
                 <h4 class="py-2">What Happens When a Respected Prosecutor Joins Trump World? Ask John Durham</h4>
                 <p>Depending on where you fall on the red-to-blue spectrum, Durham is either an avenging angel, come to right the wrongs inflicted on Donald Trump—or a deeply untrustworthy partisan hack, tasked to do the dirty work of an allegedly illegitimate president and his attorney general sidekick.</p>
@@ -213,30 +127,21 @@
             </article>
 
             </div>
-            <div class="c2 col-sm-6 col-lg-4">
+            <div class="c2 col-sm-6 col-lg-5">
               <article>
-                <h3 class="block-title">Top Story</h3>
+                <h3 class="block-title"><a href="#">Top Story</a></h3>
                 <div class="position-relative">
+                  <div class="position-absolute bottom-left category">
+                    <a href="#">POLITICS</a>
+                </div>
                     <img class="img-fluid hole-img-size" src="Assets/china-coronavirus-strategy-containment-donald-trump-aggressive.jpg" alt="coronavirus">
-                    <div class="position-absolute bottom-left category">
-                        <a href="">POLITICS</a>
-                    </div>
+                    
                 </div>
                 <h4 class="py-2">Should Tramp Copy China`s Agressive Coronavirus Strategy?</h4>
                 <p>ong before the coronavirus began to spread beyond China, infectious disease experts around the world knew there was ample reason to fear it. Not only was the pathogen highly contagious and lethal, it was also new—scientists had written no medical papers on it, doctors had no vaccines or pills to give their patients.</p>
             </article>
             </div>
-
-
-
-
-
-
-
-
-
-
-            <div class="c3 col-lg-4 content-right mr-0">
+          <div class="c3 col-lg-4 content-right mr-0">
               <div class="wrapper_c3 text-left">
                 <h4 class=" mb-1 mt-3 block-title">
                   <a href="#" class="td-none">
@@ -536,178 +441,47 @@
 
         <div class="mt-5">
           <ul class="social flex-xs row align-self-end my-0">
-            <li class="pr-3"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-            <li class="pr-3"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-            <li class="pr-3"><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li class="pr-3"><a href="#"><i class="fab fa-tumblr"></i></a></li>
-            <li class="pr-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li class="pr-3"><a href="#"><i class="fab fa-facebook-square text-dark"></i></a></li>
+            <li class="pr-3"><a href="#"><i class="fab fa-twitter-square text-dark"></i></a></li>
+            <li class="pr-3"><a href="#"><i class="fab fa-instagram text-dark"></i></a></li>
+            <li class="pr-3"><a href="#"><i class="fab fa-tumblr text-dark"></i></a></li>
+            <li class="pr-3"><a href="#"><i class="fab fa-linkedin text-dark"></i></a></li>
           </ul>
         </div>
       </div>
       <div class="col-12 footer-links container d-flex mt-3">
         <p class="mr-3 p-1 font-weight-bold">Editions:</p>
         <ul class="foot-links d-md-flex flex-wrap justify-content-around">
-          <li class="pr-3"><a href="#">U.S. Edition</a></li>
-          <li class="pr-3"><a href="#">日本</a></li>
-          <li class="pr-3"><a href="#">Pakistan</a></li>
-          <li class="pr-3"><a href="#">Polska</a></li>
-          <li class="pr-3"><a href="#">România</a></li>
+          <li class="pr-3"><a href="#" class="text-dark">U.S. Edition</a></li>
+          <li class="pr-3"><a href="#" class="text-dark">日本</a></li>
+          <li class="pr-3"><a href="#" class="text-dark">Pakistan</a></li>
+          <li class="pr-3"><a href="#" class="text-dark">Polska</a></li>
+          <li class="pr-3"><a href="#" class="text-dark">România</a></li>
         </ul>
       </div>
       <div class="col-12 footer-links-menu container">
         <ul class="menu_bottom d-md-flex flex-wrap justify-content-around">
-          <li class="pr-3 my-2"><a href="#">About Us</a></li>
-          <li class="pr-3 my-2"><a href="#">Corrections</a></li>
-          <li class="pr-3 my-2"><a href="#">Contact Us</a></li>
-          <li class="pr-3 my-2"><a href="#">Editorial Guidelines</a></li>
-          <li class="pr-3 my-2"><a href="#">Advertise</a></li>
-          <li class="pr-3 my-2"><a href="#">Copyright</a></li>
-          <li class="pr-3 my-2"><a href="#">Terms&Conditions</a></li>
-          <li class="pr-3 my-2"><a href="#">Privacy Policy</a></li>
-          <li class="pr-3 my-2"><a href="#">Cookie Policy</a></li>
-          <li class="pr-3 my-2"><a href="#">Terms of Sale</a></li>
-          <li class="pr-3 my-2"><a href="#">Archive</a></li>
-          <li class="pr-3 my-2"><a href="#">Announcements</a></li>
-          <li class="pr-3 my-2"><a href="#">Consent preferences</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">About Us</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Corrections</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Contact Us</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Editorial Guidelines</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Advertise</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Copyright</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Terms&Conditions</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Privacy Policy</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Cookie Policy</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Terms of Sale</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Archive</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Announcements</a></li>
+          <li class="pr-3 my-2"><a href="#" class="text-dark">Consent preferences</a></li>
         </ul>
       </div>
     </footer>
 
 
-  </div>
-  <!--
-          EACH BLOCK
-
-
-
-
-
-
-
-
-
-
-
-    <main>
-
-
-
-      <div class="main-container-fluid">
-        <div class="colwrap row sticky-scroll">
-          <div class="sticky4">
-            <div class="row">
-              <div class="col-3">
-                <h3 class="block-title">FEATURED STORIES</h3>
-                <article>
-                  <div class="position-relative">
-                    <img class="img-fluid hole-img-size" src="Assets/jfk-airport-new-york-city-march-2020.jpg" alt="airport">
-                    <div class="position-absolute bottom-left category">
-                      <a href="#">NEWS</a>
-                    </div>
-                  </div>
-                  <h4 class="py-2">U.S. Coronavirus Death Toll Hits 39, Infections Surpass 1,300</h4>
-                  <p>Los Angeles County confirmed its first death, as New York City's St. Patrick's Day parade is
-                    postponed, with more restrictions to be introduced in the city.</p>
-                </article>
-
-              </div>
-              <div class="col-5">
-                <h3 class="block-title">TOP STORY</h3>
-                <article>
-                  <div class="position-relative">
-                    <img class="mapping-md img-fluid hole-img-size" src="Assets/china-coronavirus-strategy-containment-donald-trump-aggressive.jpg"
-                            alt="covid" width="591"
-                            height="364"  style="position: absolute;">
-                    <div class="position-absolute bottom-left category">
-                      <a href="#">Health</a></div>
-                
-                  </div>
-                  <h4 class="py-2"><a href="#">Is
-                      Bernie Sanders Right About Medicare for All? </a></h4>
-                  <p>The U.S. government already owns and runs one of the most successful health care
-                    operations in the world. Here's an inside look.</p>
-                </article>
-              </div>
-
-              <div class="col-4 content-right">
-                <h3 class="block-title">OPINION</h3>
-                <ul>
-                  <li class="flex-xs d-flex justify-content-end">
-                    <div class="image headshot mr-auto">
-                      <a href="#">
-                        <picture width="63" height="63" style="padding-bottom: 100%;">
-                         
-                           <img src="Assets/jamal-abdi.png"
-                            alt="roff-new" title="roff-new" width="63" height="63" class="float-left" >
-                        </picture>
-                      </a>
-                    </div>
-                    <div class="info float-right">
-                      <a href="#">Coronavirus
-                        Is a Feeding Ground for Opportunists and Alarmists</a>
-                      <p class="byline"> By
-                        Peter Roff</p>
-                    </div>
-                  </li>
-                  <li class="flex-xs d-flex justify-content-end">
-                    <div class="image headshot mr-auto">
-                      <a href="#">
-                        <picture width="63" height="63" style="padding-bottom: 100%;">
-                         
-                           <img src="Assets/jamal-abdi.png"
-                            alt="roff-new" title="roff-new" width="63" height="63" class="float-left" >
-                        </picture>
-                      </a>
-                    </div>
-                    <div class="info float-right">
-                      <a href="#">Coronavirus
-                        Is a Feeding Ground for Opportunists and Alarmists</a>
-                      <p class="byline"> By
-                        Peter Roff</p>
-                    </div>
-                  </li>
-                  <li class="flex-xs d-flex justify-content-end">
-                    <div class="image headshot mr-auto">
-                      <a href="#">
-                        <picture width="63" height="63" style="padding-bottom: 100%;">
-                         
-                           <img src="Assets/jamal-abdi.png"
-                            alt="roff-new" title="roff-new" width="63" height="63" class="float-left" >
-                        </picture>
-                      </a>
-                    </div>
-                    <div class="info float-right">
-                      <a href="#">Coronavirus
-                        Is a Feeding Ground for Opportunists and Alarmists</a>
-                      <p class="byline"> By
-                        Peter Roff</p>
-                    </div>
-                  </li>
-                  <li class="flex-xs d-flex justify-content-end">
-                    <div class="image headshot mr-auto">
-                      <a href="#">
-                        <picture width="63" height="63" style="padding-bottom: 100%;">
-                         
-                           <img src="Assets/jamal-abdi.png"
-                            alt="roff-new" title="roff-new" width="63" height="63" class="float-left" >
-                        </picture>
-                      </a>
-                    </div>
-                    <div class="info float-right">
-                      <a href="#">Coronavirus
-                        Is a Feeding Ground for Opportunists and Alarmists</a>
-                      <p class="byline"> By
-                        Peter Roff</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 

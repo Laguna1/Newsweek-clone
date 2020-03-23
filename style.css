@@ -13,12 +13,12 @@ li {
   list-style: none;
 }
 
-.header-top {
+.header {
   background-color: #f72210;
 }
 
 .logo_1 {
-  max-width: 65%;
+  max-width: 95%;
   height: auto;
 }
 
@@ -124,5 +124,3 @@ nav {
 #logo_2 {
   fill: #f72210;
 }
-
-
