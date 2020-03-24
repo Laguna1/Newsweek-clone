@@ -61,12 +61,12 @@ nav {
 }
 
 .icon-n {
-flex: none;
-display: block;
-width: 29px;
-height: 28px;
-background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-margin-right: 10px;
+ flex: none;
+ display: block;
+ width: 29px;
+ height: 28px;
+ background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+ margin-right: 10px;
 }
 
 .f {
@@ -134,29 +134,27 @@ margin-right: 10px;
 #logo_2 {
   fill: #f72210;
 }
- @media (max-width: 768px) {
 
- .main {
+ @media (max-width: 768px) {
+.main {
     margin-top: 75px;
   }
 
-  .but_subscr {
+.but_subscr {
    font-size: xx-small;
    }
-   
  }
 
  @media (max-width: 576px) {
-
-  .header-wrap,
-  .header-right,
-  .header_logo {
+.header-wrap,
+.header-right,
+.header_logo {
    padding-left: 0;
    padding-right: 0;
    }
    
-   .header_logo {
-    margin-bottom: 0.35em;
+ .header_logo {
+   margin-bottom: 0.35em;
    }
  }
  
