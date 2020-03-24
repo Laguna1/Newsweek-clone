@@ -131,8 +131,8 @@ nav {
   fill: #f72210;
 }
  @media (max-width: 768px) {
-   .signin {
-    font-size: 15px !important;
+  .but_subscr {
+   font-size: xx-small;
    }
    
  }
