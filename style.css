@@ -130,3 +130,9 @@ nav {
 #logo_2 {
   fill: #f72210;
 }
+ @media (max-width: 768px) {
+   .signin {
+    font-size: 15px !important;
+   }
+   
+ }
