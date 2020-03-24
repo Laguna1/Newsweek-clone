@@ -13,6 +13,12 @@ li {
   list-style: none;
 }
 
+p {
+  font-size: 15px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
   background-color: #f72210;
 }
@@ -63,10 +69,6 @@ background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no
 margin-right: 10px;
 }
 
-.e {
-  background-color: #00b0f0;
-}
-
 .f {
   background-color: #00b050;
 }
@@ -84,15 +86,8 @@ margin-right: 10px;
   background-color: transparent;
 }
 
-.e2,
-.d3,
-.d4,
 .f4 {
   color: #fff;
-}
-
-.e1 {
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .c1,
@@ -115,7 +110,6 @@ margin-right: 10px;
 }
 
 .d3,
-.e3,
 .f3 {
   background-color: rgba(255, 255, 255, 0.25);
 }
