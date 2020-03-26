@@ -110,53 +110,46 @@ nav {
   margin-right: 10px;
 }
 
-.c {
-  background-color: orange;
-}
-
-.hi {
-  font-size: 14px;
-  background-color: rgb(230, 230, 64);
-}
-
-.g {
-  background-color: transparent;
-}
-
-.f4 {
-  color: #fff;
-}
-
-.c1,
-.f1,
-.g1 {
-  background-color: rgba(255, 255, 255, 0.66);
-}
-
-.c2,
-.f2 {
-  background-color: rgba(255, 255, 255, 0.33);
-}
-
-.d1 {
-  background-color: rgba(255, 255, 255, 0.75);
-}
-
-.d2 {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.d3,
-.f3 {
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
 .content-right {
   position: relative;
   height: auto;
   padding-right: 0;
 }
 
+.newsletter-signup {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 30px;
+}
+
+.right-sign {
+  top: -4px;
+  left: 43px;
+}
+
+.lk {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background-color: #666;
+}
+
+.lk-5 {
+  color: #333;
+  left: 0;
+  top: 47px;
+  font: bold 15px/15px "Roboto Condensed",sans-serif;
+}
+
+.n-title {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+}
 .wrapper_c3 {
   position: static;
   left: 0;
@@ -164,12 +157,44 @@ nav {
   width: auto;
 }
 
+.btn_down {
+  fill: #f72210 !important;
+}
+
 .img_start5 {
+  max-width: 191px;
   background: url(Assets/starting5-homepage.png) center center / cover no-repeat;
 }
 
 #logo_2 {
   fill: #f72210;
+}
+
+.image-container {
+  width: 170px;
+  height: 228px;
+}
+
+.magazin_2 {
+  position: relative;
+  display: inline-block;
+  width: 291px;
+  height: 293px;
+  background-image: url(Assets/march-06-2020-cover.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.magazin_1 {
+  display: block;
+  position: absolute;
+  top: 27px;
+  left: 31px;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  z-index: 10;
 }
 
  @media (max-width: 768px) {
