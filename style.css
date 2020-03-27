@@ -8,9 +8,7 @@ body {
   box-sizing: border-box;
 }
 
-ul, 
-li 
-{
+ul,li {
   list-style: none;
 }
 
@@ -25,14 +23,11 @@ p {
 
 .sticky-top {
   max-width: 1310px;
+  position: fixed;
 }
 
 nav {
   background-color: #f4f5f6;
-}
-
-.sticky-top {
-  position: fixed;
 }
 
 .input {
@@ -70,6 +65,7 @@ picture {
   height: 63px;
   padding-bottom: 80%;
 }
+
 .label {
   background-color: white;
   font-weight: bold;
@@ -147,9 +143,10 @@ picture {
 }
 
 .leftdown {
-  background-color: #edf0f3;;
+  background-color: #edf0f3;
 }
- .upper-image {
+
+.upper-image {
   position: absolute;
   top: 37px;
   left: 48px;
