@@ -8,7 +8,8 @@ body {
   box-sizing: border-box;
 }
 
-ul,li {
+ul,
+li {
   list-style: none;
 }
 
@@ -242,15 +243,15 @@ picture {
 }
 
 @media (max-width: 576px) {
+  .header_logo {
+    margin-bottom: 0.35em;
+  }
+
   .header-wrap,
   .header-right,
   .header_logo {
     padding-left: 0;
     padding-right: 0;
-  }
-   
-  .header_logo {
-    margin-bottom: 0.35em;
   }
 
   .culture {
@@ -273,14 +274,13 @@ picture {
     padding-top: 39px;
   }
 
-  .leftdown {
-    padding-bottom: 30px;
-    margin-top: -48px;
-  }
-
   .img_start5 {
     max-width: 268px;
     height: auto;
+  }
+  .leftdown {
+    padding-bottom: 30px;
+    margin-top: -48px;
   }
 }
  
