@@ -9,7 +9,8 @@ body {
 }
 
 ul, 
-li {
+li 
+{
   list-style: none;
 }
 
@@ -23,6 +24,10 @@ p {
   background-color: #f72210;
 }
 
+.sticky-top {
+  max-width: 1310px;
+}
+
 nav {
   background-color: #f4f5f6;
 }
@@ -34,12 +39,12 @@ nav {
 .input {
   margin-top: 5px;
   margin-right: 20px;
-  width: 60px;
+  width: 136px !important;
   height: 30px;
   outline: none;
   border: none;
-  background: url(Assets/iconfinder_1013_MagnifyingGlass_183520.png) no-repeat scroll 150px 12px;
-  padding-left: 60px;
+  background: url(Assets/iconfinder_1013_MagnifyingGlass_183520.png) no-repeat scroll 92px 12px;
+  margin-left: 100px;
 }
 
 .container-fluid {
@@ -50,6 +55,8 @@ nav {
 .main {
   background-color: white;
   padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-top: 165px;
 }
 
@@ -129,6 +136,15 @@ nav {
   left: 43px;
 }
 
+.leftdown {
+  background-color: #edf0f3;;
+}
+ .upper-image {
+  position: absolute;
+  top: 73px;
+  left: 106px;
+}
+
 .lk {
   display: inline-block;
   padding: 10px 10px 10px 12px;
@@ -136,7 +152,7 @@ nav {
   font: bold 18px/18px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   margin-bottom: 15px;
-  background-color: #666;
+  background-color: #f72210;
 }
 
 .lk-5 {
@@ -158,7 +174,11 @@ nav {
   width: auto;
 }
 
-.btn_down {
+.redfont {
+  color: #f72210;
+}
+
+.redbackground {
   fill: #f72210 !important;
 }
 
@@ -198,13 +218,19 @@ nav {
   z-index: 10;
 }
 
- @media (max-width: 768px) {
-.main {
+@media (max-width: 768px) {
+  .main {
     margin-top: 75px;
   }
 
   .but_subscr {
     font-size: xx-small;
+  }
+
+  .sponsored {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -214,10 +240,20 @@ nav {
   .header_logo {
     padding-left: 0;
     padding-right: 0;
-}
+  }
    
   .header_logo {
     margin-bottom: 0.35em;
+  }
+
+  .culture {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .triple {
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
  
