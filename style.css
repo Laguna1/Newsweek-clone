@@ -42,6 +42,11 @@ nav {
   margin-left: 100px;
 }
 
+.icone_input {
+  top: 6px;
+  right: -156px;
+}
+
 .container-fluid {
   font-weight: 100;
   max-width: 1350px;
@@ -143,14 +148,19 @@ picture {
   left: 43px;
 }
 
-.leftdown {
-  background-color: #edf0f3;
+.left_down {
+  background-color: #f4f5f6;
 }
 
 .upper-image {
   position: absolute;
   top: 37px;
-  left: 48px;
+  left: 85px;
+}
+
+.lazyloaded {
+  height: 283px;
+  max-width: 228px;
 }
 
 .lk {
@@ -191,7 +201,7 @@ picture {
 }
 
 .img_start5 {
-  height: 283px;
+  height: 345px;
   max-width: 228px;
 }
 
@@ -240,6 +250,11 @@ picture {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .img_start5 {
+    height: 255px;
+    max-width: 170px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -266,10 +281,12 @@ picture {
 
   .upper-image {
     top: 37px;
-    left: 108px;
+    left: 69px;
   }
 
   .h5_subscribe {
+    display: flex;
+    justify-content: center;
     font-size: small;
     padding-top: 39px;
   }
@@ -279,8 +296,12 @@ picture {
     height: auto;
   }
 
-  .leftdown {
-    padding-bottom: 30px;
-    margin-top: -48px;
+  .left_down {
+    padding-bottom: 42px;
+    margin-top: -30px;
+  }
+
+  .lk {
+    margin-left: 25%;
   }
 }
