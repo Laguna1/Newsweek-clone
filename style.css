@@ -20,6 +20,7 @@ p {
 
 .header {
   background-color: #f72210;
+  height: 70px;
 }
 
 .sticky-top {
@@ -29,6 +30,15 @@ p {
 
 nav {
   background-color: #f4f5f6;
+}
+
+.weather-icon {
+  height: 20px;
+  max-width: auto;
+}
+
+.weather-country {
+  font-size: x-small;
 }
 
 .input {
@@ -54,16 +64,21 @@ nav {
 
 .main {
   background-color: white;
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-top: 165px;
+  margin-top: 120px;
   max-width: 1310px;
 }
 
 .info {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   line-height: 90%;
+}
+
+.redborder {
+  border-bottom: 4px solid #f72210;
+}
+
+.blueborder {
+  border-top: 4px solid #1c87fb;
 }
 
 picture {
@@ -113,11 +128,7 @@ picture {
   text-indent: 5px;
   text-align: center;
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-  color: #e9212e;
-}
-
-.category-name {
-  outline: 1px solid #ff62ab !important;
+  color: #f72210;
 }
 
 .icon-n {
@@ -206,12 +217,15 @@ picture {
 }
 
 .img_start5 {
-  height: 345px;
-  max-width: 228px;
+  background-image: url(Assets/starting5-homepage.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 #logo_2 {
   fill: #f72210;
+  max-width: max-content;
 }
 
 .image-container {
@@ -268,10 +282,10 @@ picture {
   }
 
   .img_start5 {
-    height: 255px;
-    max-width: 170px;
-  }
+    height: 236px;
+    max-width: 213px;
 }
+  }
 
 @media (max-width: 576px) {
   .header_logo {
@@ -297,7 +311,7 @@ picture {
 
   .upper-image {
     top: 37px;
-    left: 69px;
+    left: 95px;
   }
 
   .h5_subscribe {
@@ -307,11 +321,6 @@ picture {
     padding-top: 39px;
   }
 
-  .img_start5 {
-    max-width: 268px;
-    height: auto;
-  }
-
   .left_down {
     padding-bottom: 42px;
     margin-top: -30px;
@@ -319,5 +328,11 @@ picture {
 
   .lk {
     margin-left: 25%;
+  }
+
+  .img_start5 {
+    height: 255px;
+    max-width: 289px;
+    margin-left: 15px;
   }
 }
