@@ -192,6 +192,11 @@ picture {
   width: auto;
 }
 
+.c1_left_side,
+.content-right_part {
+  height: 3233px;
+}
+
 .redfont {
   color: #f72210;
 }
