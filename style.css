@@ -284,8 +284,8 @@ picture {
   .img_start5 {
     height: 236px;
     max-width: 213px;
-}
   }
+}
 
 @media (max-width: 576px) {
   .header_logo {
