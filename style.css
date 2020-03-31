@@ -86,10 +86,11 @@ nav {
 .info {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   line-height: 90%;
+  color: black
 }
 
 .redborder {
-  border-bottom: 4px solid #f72210;
+  border-top: 4px solid #f72210;
 }
 
 .blueborder {
@@ -295,7 +296,6 @@ picture {
   }
 }
 
-
 @media (max-width: 768px) {
   .header {
     height: 66px;
@@ -322,6 +322,10 @@ picture {
   .img_start5 {
     height: 236px;
     max-width: 213px;
+  }
+
+  #logo_2 {
+    width: 200px !important;
   }
 }
 
