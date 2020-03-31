@@ -6,12 +6,6 @@ body {
 
 * {
   box-sizing: border-box;
-  border: 0 none;
-  list-style: none outside none;
-  margin: 0;
-  outline: 0 none;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
 }
 
 ul,
@@ -43,12 +37,16 @@ nav {
 }
 
 .logo_1 {
-  width: 844px;
+  width: 1014px;
   height: 122px;
 }
 
 .header-right {
   margin-bottom: -54px;
+}
+
+.subscr {
+  margin: 5px;
 }
 
 .input {
@@ -75,14 +73,13 @@ nav {
 
 .container-fluid {
   font-weight: 100;
-  max-width: 1350px;
+  max-width: 1320px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .main {
   background-color: white;
-  margin-top: 120px;
   max-width: 1310px;
 }
 
@@ -316,10 +313,6 @@ picture {
     margin: 5px 10px;
   }
 
-  .main {
-    margin-top: 70px;
-  }
-
   .sponsored {
     max-width: 330px;
     margin-left: auto;
@@ -333,6 +326,10 @@ picture {
 }
 
 @media (max-width: 576px) {
+  .navbar {
+    padding: 0 !important;
+  }
+
   .header_logo {
     margin-bottom: 0.35em;
   }
@@ -345,6 +342,10 @@ picture {
   .but_subscr {
     font-size: 14px;
     margin-bottom: 10px;
+  }
+
+  .subscr {
+    margin: 10px 2px;
   }
 
   .top_chevr {
