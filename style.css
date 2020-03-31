@@ -6,6 +6,12 @@ body {
 
 * {
   box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul,
@@ -20,12 +26,7 @@ p {
 
 .header {
   background-color: #f72210;
-  height: 70px;
-}
-
-.sticky-top {
-  max-width: 1310px;
-  position: fixed;
+  height: 122px;
 }
 
 nav {
@@ -39,6 +40,15 @@ nav {
 
 .weather-country {
   font-size: x-small;
+}
+
+.logo_1 {
+  width: 844px;
+  height: 122px;
+}
+
+.header-right {
+  margin-bottom: -54px;
 }
 
 .input {
@@ -57,9 +67,17 @@ nav {
   right: -156px;
 }
 
+.navbar-toggler-icon {
+  width: 34px;
+  margin-right: 0;
+  background-color: #fb9a94;
+}
+
 .container-fluid {
   font-weight: 100;
   max-width: 1350px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .main {
@@ -266,13 +284,40 @@ picture {
   line-height: 15px;
 }
 
-@media (max-width: 768px) {
-  .main {
-    margin-top: 75px;
+@media (max-width: 1024px) {
+  .header {
+    height: 106px;
   }
 
-  .but_subscr {
-    font-size: xx-small;
+  .logo_1 {
+    height: 93px;
+  }
+
+  .header-right {
+    margin-bottom: 8px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    height: 66px;
+  }
+
+  .logo_1 {
+    height: 93px;
+  }
+
+  .header-right {
+    margin-bottom: -15px;
+  }
+
+  .subscr {
+    margin: 5px 10px;
+  }
+
+  .main {
+    margin-top: 70px;
   }
 
   .sponsored {
@@ -292,11 +337,25 @@ picture {
     margin-bottom: 0.35em;
   }
 
+  .logo_1 {
+    display: block;
+    max-width: 132px;
+  }
+
+  .but_subscr {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .top_chevr {
+    display: none !important;
+  }
+
   .header-wrap,
   .header-right,
   .header_logo {
     padding-left: 0;
-    padding-right: 0;
+    margin-right: 0;
   }
 
   .culture {
