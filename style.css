@@ -164,10 +164,15 @@ picture {
 
 .newsletter-signup {
   max-width: 300px;
+  height: 195px;
   margin: 0 auto 30px;
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
   padding: 30px;
+}
+
+.new_lk {
+  margin-top: 22px;
 }
 
 .right-sign {
@@ -203,7 +208,7 @@ picture {
 .lk-5 {
   color: #333;
   left: 0;
-  top: 47px;
+  top: 83px;
   font: bold 15px/15px "Roboto Condensed", sans-serif;
 }
 
