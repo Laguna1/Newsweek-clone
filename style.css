@@ -83,6 +83,11 @@ nav {
   max-width: 1310px;
 }
 
+ .center-col {
+   position: sticky;
+   top: 0;
+ }
+
 .info {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   line-height: 90%;
@@ -222,11 +227,6 @@ picture {
   left: 0;
   top: 0;
   width: auto;
-}
-
-.c1_left_side,
-.content-right_part {
-  height: 3233px;
 }
 
 .redfont {
