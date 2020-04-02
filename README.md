@@ -29,7 +29,7 @@ Laptop 1440 X 708 (Portrait Mode)
 https://www.newsweek.com/
 
 ### Live Demo 
- [NEWSWEEK](https://rawcdn.githack.com/Laguna1/Newsweek-clone/f357ca41a603cb177398ed2b09168927b5847fc3/index.html) - From the Odin Project Curriculum.
+ [NEWSWEEK](https://laguna1.github.io/Newsweek-clone/) - From the Odin Project Curriculum.
 ***
 
 ### Author
